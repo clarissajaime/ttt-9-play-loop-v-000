@@ -38,6 +38,7 @@ end
 
 def play(board)
   until turn(board) == ["X","X","X","X","X","X","X","X","X",]
+    puts "Play loop"
     turn(board)
   end
 end
